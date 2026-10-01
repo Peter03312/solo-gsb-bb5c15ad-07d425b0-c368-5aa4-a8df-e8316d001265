@@ -1,0 +1,19 @@
+{
+  "name": "subtitle-correction",
+  "version": "1.0.0",
+  "description": "多人协作字幕校订 Web 应用（Node.js + SQLite + SRT 导入导出）",
+  "main": "src/server.js",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "init-db": "node scripts/init-db.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
